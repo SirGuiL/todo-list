@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -27px;
+  margin: -27px 0 0 8px;
+  padding: 16px;
+  border-radius: 8px;
+
+  color: var(--gray-100);
+  background: var(--blue-dark);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 140%;
+
+  border: none;
+  cursor: pointer;
+}
+
+.button svg {
+  margin-left: 8px;
+}

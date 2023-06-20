@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  max-width: 736px;
+  width: 100%;
+  margin-top: 66px;
+
+  flex-direction: column;
+}
+
+.container .links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container .tasksCreated {
+  display: flex;
+  color: var(--blue);
+
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  
+  cursor: pointer;
+
+  transition: color 0.1s;
+}
+
+.container .tasksCreated:hover {
+  color: var(--purple);
+}
+
+.container .tasksCreated div {
+  display: flex;
+  color: var(--gray-100);
+  background: var(--gray-400);
+
+  border-radius: 999px;
+
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+
+  padding: 2px 8px;
+  margin-left: 8px;
+}
